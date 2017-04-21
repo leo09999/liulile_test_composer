@@ -1,0 +1,22 @@
+{
+    "name": "liulile_package/src",
+    "description": "test package!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liulile",
+            "email": "liulile@enhance.cn"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload":{
+        "psr-4": {
+            "liulile_package\\": "src/"
+        },
+        "files": ["src/test.php"]
+    }
+}
